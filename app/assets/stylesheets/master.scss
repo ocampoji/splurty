@@ -1,4 +1,6 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Aguafina+Script&display=swap');
+
 
 .clear {
     clear: both;
@@ -38,6 +40,8 @@
     color: black;
     font-size: 25px;
     border-bottom: 1px solid #dfdfdf;
+    font-family: 'rubikregular';
+    font-weight: bold;
 }
 
 header {
@@ -46,4 +50,14 @@ header {
 
 hr {
     clear:both;
+}
+
+h1 {
+    font-family: 'rubikblack_italic';
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'Aguafina Script', cursive;
 }
